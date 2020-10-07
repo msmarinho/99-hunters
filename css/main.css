@@ -1,7 +1,75 @@
+.container {
+  margin: auto !important;
+  padding: 30px;
+  max-width: 1080px !important;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__brand-logo {
+  width: 70px;
+  height: 67px;
+  background: url("../images/v664_276.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.navbar__brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar__brand-text-primary {
+  color: rgba(255, 103, 0, 1);
+  font-family: Intro Regular;
+  font-weight: Regular;
+  font-size: 26px;
+}
+
+.navbar__brand-text-secondary {
+  color: rgba(97, 94, 92, 1);
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 16px;
+}
+
+.navbar__nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.navbar__nav-list {
+  display: flex;
+}
+
+.navbar__nav-list-item {
+  margin: 0 10px;
+  color: rgba(97, 94, 92, 1);
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 16px;
+}
+
+.navbar__nav-list-item:last-child {
+  color: rgba(255, 103, 0, 1);
+}
+/* end navbar */
+
 * {
   overflow-x: hidden;
-  padding: 0px !important;
-  margin: 0px !important;
+  padding: 0px;
+  margin: 0px;
 }
 .v634_176 {
   width: 100%;
